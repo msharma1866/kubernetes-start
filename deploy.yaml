@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: hello-kubernetes
-        image: hellokubernetes:latest
+        image: kubernetesstart/hellokubernetest:1.0
         imagePullPolicy: IfNotPresent
         resources:
           limits:
